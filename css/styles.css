@@ -1,0 +1,53 @@
+body {
+    background-color: gainsboro !important;
+    padding:0px 50px;
+    color: white !important;  
+}
+
+#titleContainer {
+    background-color: #090462;
+    text-align: center;
+    width: 100%;
+    margin: 30px auto;
+    padding: 30px;
+    border-color: white; 
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #888888;
+}
+
+#titleContainer h1 {
+    font-family: 'Baloo Bhaijaan', cursive;
+    font-size: 80px;
+    color: firebrick;
+}
+
+#titleContainer h3 {
+   font-family: 'Indie Flower', cursive; 
+   font-size: 30px;
+}
+
+#bodyContainer {
+    background-color: #2A2626;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    border-color: white; 
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #888888;
+}
+
+#bodyContainer img {
+    width: auto; 
+    height: 400px;
+    display: block;
+    margin: 30px auto;
+}
+
+#bodyContainer h1 {
+    font-family: 'Arvo', serif;
+    text-align: center;
+}

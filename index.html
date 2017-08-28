@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <title> Tom's Restaurant </title>
+
+        <!-- STYLESHEETS --> 
+        <link rel='stylesheet' type='text/css' href='css/styles.css'>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    
+        <!-- FONTS --> 
+        <link href="https://fonts.googleapis.com/css?family=Arvo|Indie+Flower" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+    </head> 
+    <body> 
+        <div id='titleContainer'>
+            <h1>TOM'S RESTAURANT</h1>
+            <h3>"The Original Diner"</h3>
+        </div>
+        <div id="bodyContainer">
+            <img src="images/toms-restaurant.jpg">
+
+            <h1> We Do Reservations! </h1>
+
+            <div id="reservations" class="container">
+                <div class="row">
+                    <div class="col-sm-6"> 
+                        <h1> Make a Reservation </h1>
+                        <form>
+                            <div class="form-group"> 
+                                <label for="nameInput">Name</label>
+                                <input type="name" class="form-control" id="nameInput" placeholder="Enter name">
+                            </div>
+                            <div class="form-group">
+                                <label for="dateInput">Date</label>
+                                <input type="datetime-local" class="form-control" id="dateInput" placeholder="Enter date">
+                            </div>
+                             <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div> 
+                    <div class="col-sm-6">
+                        <h1> Existing Reservations </h1>
+                        <table class="table table-responsive">
+                            <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Day</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>John</td>
+                                <td>August 27, 2017 10:00am</td>
+                            </tr>
+                            <tr>
+                                <td>Mary</td>
+                                <td>August 27, 2017 2:00 pm</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+
+        <!-- JS SCRIPTS --> 
+        <script src='js/handlebars-v4.0.10.js'></script> 
+        <script src='js/jquery-3.2.1.min.js'></script> 
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsJMCuifyfkVq8gYJgqFB0yCgOBIB5oA4&callback=initMap"></script>
+        <script src='js/main.js'></script>
+    </body>
+</html>
